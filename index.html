@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bruno Motta — QA Pleno · Sistemas Fiscais</title>
+  <meta name="description" content="Currículo de Bruno Motta — QA Pleno / SQL, sistemas fiscais e gestão tributária. Mais de 10 anos na Alterdata Software." />
+  <meta property="og:title" content="Bruno Motta — Currículo" />
+  <meta property="og:description" content="QA Pleno | JavaScript / Gestão Fiscal"/>
+  <meta property="og:image" content="assets/og.jpg" />
+  <link rel="icon" href="assets/og.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Barra de ações (some na impressão) -->
+  <nav class="toolbar" aria-label="Ações">
+    <div class="toolbar__links">
+      <a href="#perfil">Perfil</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#formacao">Formação</a>
+      <a href="#cursos">Cursos</a>
+    </div>
+    <button class="btn btn--primary" id="btnPdf" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14" /></svg>
+      Exportar PDF
+    </button>
+  </nav>
+
+  <main class="cv">
+    <!-- ============ COLUNA LATERAL ============ -->
+    <aside class="side">
+      <figure class="photo">
+        <img src="assets/bruno-motta.jpg" alt="Foto de Bruno Motta" width="720" height="1015" />
+      </figure>
+
+      <div class="side__inner">
+        <header class="identity">
+          <h1>Bruno<br />Motta</h1>
+          <p class="role">QA Pleno</p>
+          <p class="role-sub">Automações · SQL · Sistemas Fiscais · testes de software · BDD/Gherkin </p>
+          <span class="rule"></span>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/bruno-motta-a94aa520b" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm6.5 0h3.8v1.5h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1v5.45h-4v-4.83c0-1.15-.02-2.63-1.6-2.63-1.61 0-1.85 1.25-1.85 2.55v4.91h-4v-11Z"/></svg>
+            </a>
+            <a href="https://github.com/Mottab766" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.7 5.39-5.27 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
+            <a href="mailto:mottab766@gmail.com" aria-label="E-mail" title="E-mail">
+              <svg viewBox="0 0 24 24"><path d="M3 5h18v14H3V5Zm2 2v.4l7 4.6 7-4.6V7H5Zm14 2.8-7 4.6-7-4.6V17h14V9.8Z"/></svg>
+            </a>
+          </div>
+        </header>
+
+        <section class="side-block">
+          <h2>Contato</h2>
+          <span class="rule"></span>
+          <ul class="contact">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3V5Zm2 2v.4l7 4.6 7-4.6V7H5Zm14 2.8-7 4.6-7-4.6V17h14V9.8Z"/></svg>
+              <div><small>E-mail</small>
+                <button class="copy" type="button" data-copy="mottab766@gmail.com" title="Clique para copiar">mottab766@gmail.com</button>
+              </div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z"/></svg>
+              <div><small>Telefone / WhatsApp</small>
+                <a href="https://wa.me/5521968707701" target="_blank" rel="noopener">(21) 96870-7701</a>
+              </div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
+              <div><small>Localização</small><span>Teresópolis / RJ</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm6.5 0h3.8v1.5h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1v5.45h-4v-4.83c0-1.15-.02-2.63-1.6-2.63-1.61 0-1.85 1.25-1.85 2.55v4.91h-4v-11Z"/></svg>
+              <div><small>LinkedIn</small>
+                <a href="https://www.linkedin.com/in/bruno-motta-a94aa520b" target="_blank" rel="noopener">in/bruno-motta</a>
+              </div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.7 5.39-5.27 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+              <div><small>GitHub</small>
+                <a href="https://github.com/Mottab766" target="_blank" rel="noopener">github.com/Mottab766</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="side-block">
+          <h2>Competências</h2>
+          <span class="rule"></span>
+          <ul class="bars">
+            <li><span>BDD/Gherkin</span><i style="--v:80%"></i></li>
+            <li><span>SQL · PostgreSQL</span><i style="--v:70%"></i></li>
+            <li><span>Testes e QA</span><i style="--v:95%"></i></li>
+            <li><span>Domínio fiscal</span><i style="--v:95%"></i></li>
+            <li><span>JavaScript · HTML/CSS</span><i style="--v:75%"></i></li>
+            <li><span>Cypress e automações</span><i style="--v:75%"></i></li>
+          </ul>
+        </section>
+
+        <section class="side-block">
+          <h2>Idiomas</h2>
+          <span class="rule"></span>
+          <ul class="bars">
+            <li><span>Português · nativo</span><i style="--v:100%"></i></li>
+            <li><span>Inglês · básico</span><i style="--v:25%"></i></li>
+          </ul>
+        </section>
+
+        <section class="side-block">
+          <h2>Ferramentas</h2>
+          <span class="rule"></span>
+          <ul class="tags">
+            <li>PostgreSQL</li><li>Git / GitHub</li><li>Vercel</li><li>Figma</li><li>Jira</li><li>Kanban</li><li>Scrum</li>
+          </ul>
+        </section>
+      </div>
+    </aside>
+
+    <!-- ============ CONTEÚDO PRINCIPAL ============ -->
+    <div class="content">
+      <section id="perfil" class="block reveal">
+        <h2>Perfil</h2>
+        <span class="rule rule--dark"></span>
+        <p>
+          Mais de <strong>10 anos dentro de um produto fiscal e contábil</strong> na Alterdata Software: comecei no suporte
+          do Pack Fiscal, passei pelo setor de treinamento onde me especializei no fiscal e na reforma tributária, hoje atuo como <strong>QA pleno no time de Desenvolvimento Fiscal</strong>.
+          Conheço o produto pelo lado do usuário, do suporte e do código em teste.
+        </p>
+        <p>
+          Em paralelo, desenvolvo e testo sistemas de gestão como projetos independentes:
+          clínicas, gestão escolar, financeiro e indicadores fiscais.</p>
+        <p class="goal">
+          Busco unir o domínio da legislação fiscal ao desenvolvimento do produto, entregando qualidade desde o requisito até os testes finais da aplicação.
+        </p>
+
+        <div class="stats">
+          <div><b data-count="10">11</b><span>anos em produto<br />fiscal e contábil</span></div>
+          <div><b data-count="6">7</b><span>anos como<br />Instrutor fiscal especializado na reforma tributária</span></div>
+          <div><b data-count="4">4</b><span>sistemas próprios<br />em produção</span></div>
+        </div>
+      </section>
+
+      <section id="experiencia" class="block reveal">
+        <h2>Experiência</h2>
+        <span class="rule rule--dark"></span>
+
+        <div class="company">
+          <h3>Alterdata Software <span>· Teresópolis/RJ · out/2015 – atual</span></h3>
+        </div>
+        <ol class="timeline">
+          <li class="item is-open">
+            <button class="item__head" type="button" aria-expanded="true">
+              <span class="item__title">QA Analyst Pleno — Desenvolvimento Fiscal</span>
+              <span class="item__date">set/2025 – atual</span>
+              <span class="chev" aria-hidden="true"></span>
+            </button>
+            <div class="item__body">
+              <ul>
+                <li>Valido requisitos e regras de negócio fiscais complexas e bloqueio bugs críticos antes da liberação para produção.</li>
+                <li>Executo testes de interface, integração, banco de dados, regressão e desempenho.</li>
+                <li>Planejo cenários de teste por projeto e por feature junto ao Tech Lead.</li>
+                <li>Opero e mantenho as rotinas de testes automatizados da esteira do produto.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="item is-open">
+            <button class="item__head" type="button" aria-expanded="true">
+              <span class="item__title">Professor de Educação Corporativa</span>
+              <span class="item__date">out/2019 – set/2025</span>
+              <span class="chev" aria-hidden="true"></span>
+            </button>
+            <div class="item__body">
+              <ul>
+                <li>Criei cursos para clientes e colaboradores direcionados para o sistema fiscal.</li>
+                <li>Gravação de lives e outros conteúdos para aprendizado.</li>
+                <li>Manutenção de treinamentos e conteúdos em plataforma moodle.</li>
+                <li>Tornei-me especialista na reforma tributária aplicando treinamentos e palestras sobre o tema para clientes e colaboradores.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="item is-open">
+            <button class="item__head" type="button" aria-expanded="true">
+              <span class="item__title">Analista de Suporte Técnico Fiscal</span>
+              <span class="item__date">Mai/2016 – out/2019</span>
+              <span class="chev" aria-hidden="true"></span>
+            </button>
+            <div class="item__body">
+              <ul><li>Atendi clientes do Pack Fiscal em apurações de impostos e no auxílio às obrigações fiscais.</li></ul>
+            </div>
+          </li>
+        </ol>
+
+
+      </section>
+
+      <!-- <section id="projetos" class="block reveal">
+        <h2>Projetos</h2>
+        <span class="rule rule--dark"></span>
+        <p class="lead">Projetos independentes de desenvolvimento full-stack, em produção.</p>
+        <div class="cards">
+          <article class="card">
+            <h3><a href="https://interface-clinic.vercel.app/" target="_blank" rel="noopener">InterfaceClinic <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6L10 14M18 14v6H4V6h6"/></svg></a></h3>
+            <p>Sistema para clínicas médicas, odontológicas, de fisioterapia e psicologia, com banco único multiempresa e visão restrita por profissional.</p>
+            <span class="tag">Saúde</span>
+          </article>
+          <article class="card">
+            <h3>Gestão Escolar</h3>
+            <p>Perfis de acesso para administração, financeiro, coordenação, professores e responsáveis.</p>
+            <span class="tag">Educação</span>
+          </article>
+          <article class="card">
+            <h3>Painel de indicadores fiscais</h3>
+            <p>Dashboard para empresas do Simples Nacional, com gráficos e layout responsivo.</p>
+            <span class="tag">Fiscal</span>
+          </article>
+          <article class="card">
+            <h3>Casal Financeiro</h3>
+            <p>ERP financeiro doméstico com importação de extratos e faturas de bancos.</p>
+            <span class="tag">Financeiro</span>
+          </article>
+          <article class="card card--book">
+            <h3>Aprendendo Programação com Pascal</h3>
+            <p>E-book autoral sobre os princípios básicos da programação em Pascal, a linguagem base do Delphi.</p>
+            <span class="tag">Autor</span>
+          </article>
+        </div>
+        <p class="stack"><b>Stack:</b> JavaScript, HTML/CSS, PostgreSQL (Supabase, schema por sistema e RLS), Vercel, GitHub.</p>
+      </section> -->
+
+      <section id="formacao" class="block reveal">
+        <h2>Formação</h2>
+        <span class="rule rule--dark"></span>
+        <ol class="timeline timeline--edu">
+          <li>
+            <div class="edu__meta"><b>Descomplica</b><span>previsão 12/2026</span></div>
+            <div><b>Pós-graduação em engenharia de software</b><p>Engenharia de software, modelagem de sistemas, desenvolvimento de aplicações, testes e qualidade.</p><p>Cursando.</p></div>
+          </li>
+          <li>
+            <div class="edu__meta"><b>Descomplica</b><span>2021</span></div>
+            <div><b>Pós graduação em gestão fiscal e tributária</b></div>
+          </li>
+          <li>
+            <div class="edu__meta"><b>Unopar</b><span>2019</span></div>
+            <div><b>Bacharel em administração</b></div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="cursos" class="block reveal">
+        <h2>Cursos e certificações</h2>
+        <span class="rule rule--dark"></span>
+        <div class="filters" role="group" aria-label="Filtrar cursos">
+          <button type="button" class="chip is-active" data-filter="all">Todos</button>
+          <button type="button" class="chip" data-filter="dev">Desenvolvimento</button>
+          <button type="button" class="chip" data-filter="qa">Testes</button>
+          <button type="button" class="chip" data-filter="gestao">Gestão</button>
+        </div>
+        <ul class="courses">
+          <li data-cat="qa"><span>Início Rápido em Teste e QA</span><em>Udemy · 2025</em></li>
+          <li data-cat="dev"><span>HTML e CSS</span><em>Alura · 2023</em></li>
+          <li data-cat="dev"><span>Trilha PHP</span><em>Alura · 2023</em></li>
+          <li data-cat="dev"><span>Trilha JavaScript</span><em>Alura · 2024</em></li>
+          <li data-cat="dev"><span>Trilha React</span><em>Alura · 2024</em></li>
+          <li data-cat="gestao"><span>Node.js</span><em>Alura · 2025</em></li>
+          <li data-cat="dev"><span>Imersão Dev com Google Gemini</span><em>Alura · 2025</em></li>
+          <li data-cat="gestao"><span>Ninja do Cypress</span><em>Alura · 2026</em></li>
+          <li data-cat="outros"><span>Inglês Básico</span><em>NEXT2U · 2026</em></li>
+          <li data-cat="outros"><span>Interface de Software</span><em>Descomplica · 2026</em></li>
+          <li data-cat="outros"><span>Lógica de Programação com Java</span><em>Descomplica · 2026</em></li>
+        </ul>
+      </section>
+      <footer class="foot">
+        <span>Bruno Motta · Teresópolis/RJ</span>
+        <a href="https://www.linkedin.com/in/bruno-motta-a94aa520b" target="_blank" rel="noopener">Conecte-se no LinkedIn →</a>
+      </footer>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
